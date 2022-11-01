@@ -11,6 +11,9 @@
   box-sizing: border-box;
 }
 
+html {
+  scroll-behavior: smooth;
+}
 body {
   margin: 0;
   padding: 0;
@@ -123,6 +126,9 @@ img {
 #contact div {
   color: rgb(48, 47, 47);
   text-size-adjust: 1rem;
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
 }
 h1,
 h2,
@@ -135,4 +141,24 @@ h6 {
 
 p {
   margin: 0;
+}
+.menu-button {
+  display: none;
+}
+@media (max-width: 785px) {
+  .page-section {
+    flex-direction: column;
+  }
+  .menu-button {
+    display: block;
+  }
+  header nav ul {
+    display: none;
+  }
+  #work > div {
+    grid-template-columns: 1fr;
+  }
+  #contact div {
+    flex-direction: column;
+  }
 }
