@@ -75,6 +75,12 @@ nav a {
 #about p {
   margin-bottom: 1rem;
 }
+#about img {
+  margin-left: 50%;
+  height: 150px;
+  border-radius: 50%;
+  border: 2px solid;
+}
 .page-section > div {
   border-left: 4px solid navy;
   padding-left: 10px;
@@ -112,7 +118,11 @@ img {
   position: absolute;
   bottom: 10px;
   background-color: aquamarine;
-  padding: 10px 10px;
+  padding: 10px;
+}
+#contact div {
+  color: rgb(48, 47, 47);
+  text-size-adjust: 1rem;
 }
 h1,
 h2,
