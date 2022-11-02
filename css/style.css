@@ -1,11 +1,4 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap");
-:root {
-  background-color: white;
-  font: 1em sans-serif;
-  margin: 0;
-  padding: 0;
-  text-decoration-style: var(1em);
-}
 
 * {
   box-sizing: border-box;
@@ -14,6 +7,7 @@
 html {
   scroll-behavior: smooth;
 }
+/* body styling */
 body {
   margin: 0;
   padding: 0;
@@ -21,6 +15,7 @@ body {
     "Lucida Sans", Arial, sans-serif;
   line-height: 1.5;
 }
+/* header styling */
 header {
   background-color: rgb(48, 47, 47);
   display: flex;
@@ -38,10 +33,9 @@ header nav ul {
   display: flex;
   justify-content: flex-end;
   align-items: center;
-  /* text-decoration-color: aquamarine; */
   margin-left: 25px;
 }
-
+/* h1 styling */
 h1 {
   display: inline;
   background-color: aquamarine;
@@ -53,7 +47,7 @@ h1 {
 nav a {
   color: aquamarine;
 }
-
+/* hero styling */
 .hero {
   display: flex;
   background-image: url(../images/02-hero-bg.jpg);
@@ -71,6 +65,7 @@ nav a {
   background-color: aquamarine;
   justify-content: flex-end;
 }
+/* section styles */
 .page-section {
   display: flex;
   margin-bottom: 35px;
@@ -78,17 +73,24 @@ nav a {
 #about p {
   margin-bottom: 1rem;
 }
+.profilepic {
+  display: grid;
+  place-items: end;
+}
 #about img {
-  margin-left: 50%;
+  aspect-ratio: 1/1;
+  object-fit: cover;
+  object-position: top left;
   height: 150px;
   border-radius: 50%;
   border: 2px solid;
 }
-.page-section > div {
+.page-section > div:nth-child(2) {
   border-left: 4px solid navy;
   padding-left: 10px;
 }
 .page-section h2 {
+  margin: 1rem;
   font-size: 4rem;
   text-align: end;
   flex-shrink: 0;
@@ -123,13 +125,19 @@ img {
   background-color: aquamarine;
   padding: 10px;
 }
+/* contact styles */
 #contact div {
-  color: rgb(48, 47, 47);
+  font-family: Georgia, "Times New Roman", Times, serif;
   text-size-adjust: 1rem;
   display: flex;
   justify-content: space-between;
   width: 100%;
+  color: blue;
 }
+#contact div a {
+  color: blue;
+}
+/* h1-h6 styles */
 h1,
 h2,
 h3,
@@ -145,6 +153,7 @@ p {
 .menu-button {
   display: none;
 }
+/* media responsive styles */
 @media (max-width: 785px) {
   .page-section {
     flex-direction: column;
@@ -160,5 +169,18 @@ p {
   }
   #contact div {
     flex-direction: column;
+  }
+  .page-section h2 {
+    width: 100%;
+    text-align: center;
+    font-size: 3rem;
+    margin-bottom: 1rem;
+  }
+  .profilepic {
+    place-items: center;
+  }
+  .page-section > div:nth-child(2) {
+    border: none;
+    padding: none;
   }
 }
