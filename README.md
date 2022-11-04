@@ -1,4 +1,6 @@
-# My Portfoloi
+# My Portfolio
+
+<!-- Work in progress -->
 
 ## Table of Contents
 
@@ -12,34 +14,20 @@ About navigation bar is designed to get to know me and what i do and works i hav
 
 ## work <a name = "">work</a>
 
-this contains a preview into application i have developed and images to back it up.
-Click
+this contains a preview into application i have developed and also the the Programs i used to achieve all that.
 
-### Prerequisites
+Mern stack
+javascript/React
+html/css
 
-What things you need to install the software and how to install them.
+## contact
 
-```
-Give examples
-```
-
-### Installing
-
-A step by step series of examples that tell you how to get a development env running.
-
-Say what the step will be
-
-```
-Give the example
-```
-
-And repeat
-
-```
-until finished
-```
-
-End with an example of getting some data out of the system or using it for a little demo.
+links availaable for
+twitter
+s[otify
+github
+email
+and phone number]
 
 ## Usage <a name = "usage"></a>
 

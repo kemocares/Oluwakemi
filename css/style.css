@@ -76,6 +76,7 @@ nav a {
 .profilepic {
   display: grid;
   place-items: end;
+  border-radius: 50%;
 }
 #about img {
   aspect-ratio: 1/1;
